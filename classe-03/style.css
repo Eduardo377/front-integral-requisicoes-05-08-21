@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: URL(./painel-adesivo-pokemon-decoracao-para-festa-pokemon.jpg);
+    background-size: cover;
+}
+
+form {
+    border: 16px solid rgba(0, 140, 255, 0.4);
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    height: 30px;
+    margin-top: 10px;
+    border: 3px solid orange;
+    border-radius: 9px;
+    text-align: center;
+}
+
+input[type=text] {
+    outline: none;
+}
+
+input:hover {
+    transition: 2s;
+    border-color: blue;
+}
+
+form>* {
+    display: flex;
+    flex-direction: column;
+}

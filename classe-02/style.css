@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: URL(./bitcoin-825x510.jpg);
+    background-size: cover;
+}
+
+form {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(2, 43, 2);
+}
+
+p {
+    color: rgb(2, 43, 2);
+    font-size: 40px;
+    border-color: aquamarine solid 2px;
+    text-shadow: 1px rgba(255, 255, 255, );
+}
+
+input[type=text] {
+    outline: none;
+}

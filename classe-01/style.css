@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: URL("./mapa-do-brasil_122462-54.jpg");
+    background-size: cover;
+}
+
+form {
+    background-color: green;
+    border: 8px solid green;
+}
+
+input {
+    margin-bottom: 5px;
+    border: 2px solid black;
+    height: 25px;
+    text-align: center;
+}
+
+input:hover {
+    transition: 4px 2s blue;
+    border: 4px blue;
+}
+
+form>* {
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+label {
+    background-color: green;
+}
+
+input[type=text] {
+    outline: none;
+}
